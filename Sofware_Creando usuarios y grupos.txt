@@ -16,10 +16,6 @@ useradd eezequiel
 verificamos si se logró crear los usuarios
 cat /etc/passwd
 
-ahora crearemos una contraseña a nuestro usuario en el grupo de familia
-passwd sonia
-passwd eezequiel
-
 ahora agregaremos los usurario que hemos creados al grupo de familia, los usuarios son. sonia, eezequiel
 adduser sonia familia
 adduser eezequiel familia
@@ -33,8 +29,6 @@ creamos el usuario de mama
 useradd sonia
 useradd eezequiel 
 cat /etc/passwd
-passwd sonia
-passwd eezequiel
 adduser sonia familia
 adduser eezequiel familia
 esos serían los comandos para crear usuarios y grupos en Linux/debían                                                                                                                                                                                                                     
