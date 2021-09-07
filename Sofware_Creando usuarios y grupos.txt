@@ -1,10 +1,10 @@
 para crear un grupo debemos entrar en modo root
 al grupo lo llamaremos casa
 groupadd casa
-después verificamos que se halla creado
+despuÃ©s verificamos que se halla creado
 cat /etc/group
 
-después que hayamos verificado le cambiaremos de nombre de casa a familia
+despuÃ©s que hayamos verificado le cambiaremos de nombre de casa a familia
 groupadd --n familia casa
 
 crearemos los usuarios que les pondremos los nombres de nuestros padres.
@@ -13,17 +13,17 @@ useradd sonia
 creamos como usuarios nuestro nombre
 useradd eezequiel
 
-verificamos si se logró crear los usuarios
+verificamos si se logrÃ³ crear los usuarios
 cat /etc/passwd
 
-ahora crearemos una contraseña a nuestro usuario en el grupo de familia
+ahora crearemos una contraseÃ±a a nuestro usuario en el grupo de familia
 passwd sonia
 passwd eezequiel
 
 ahora agregaremos los usurario que hemos creados al grupo de familia, los usuarios son. sonia, eezequiel
 adduser sonia familia
 adduser eezequiel familia
-eso sería todo.
+eso serÃ­a todo.
 
 abreviado todos los pasos que hicimos anteriormente.  
 groupadd casa
@@ -37,8 +37,4 @@ passwd sonia
 passwd eezequiel
 adduser sonia familia
 adduser eezequiel familia
-esos serían los comandos para crear usuarios y grupos en Linux/debían
-	
-
-
-                                                                                                                                                                                                                         
+esos serÃ­an los comandos para crear usuarios y grupos en Linux/debÃ­an                                                                                                                                                                                                                     
