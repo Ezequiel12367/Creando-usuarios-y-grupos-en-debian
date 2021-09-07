@@ -38,3 +38,4 @@ passwd eezequiel
 adduser sonia familia
 adduser eezequiel familia
 esos serían los comandos para crear usuarios y grupos en Linux/debían                                                                                                                                                                                                                     
+
